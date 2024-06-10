@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== REMIX ICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Responsive headphones landing page</title>
+</head>
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__logo">
+               
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#specs" class="nav__link">Specs</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#case" class="nav__link">Case</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#products" class="nav__link">Products</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-function-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!--=============== HOME ===============-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div>
+                    <img src="laptop.png?raw=true" alt="" class="home__img">
+                </div>
+
+                <div class="home__data">
+                    <div class="home__header">
+                        <h1 class="home__title">Power</h1>
+                        <h2 class="home__subtitle">Laptops</h2>
+                    </div>
+
+                    <div class="home__footer">
+                        <h3 class="home__title-description">Overview</h3>
+                        <p class="home__description">Experience top-notch performance with our latest laptops, featuring sleek designs, powerful processing capabilities, and superior battery life. Perfect for professionals and students alike.
+                        </p>
+                        <a href="#" class="button button--flex">
+                            <span class="button--flex">
+                                <i class="ri-shopping-bag-line button__icon"></i></i> Add to Bag
+                            </span>
+                            <span class="home__price">$1,299</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== SPONSOR ===============-->
+        <section class="sponsor section">
+            <div class="sponsor__container container grid">
+                <img src="sponsor1.png?raw=true" alt="" class="sponsor__img">
+                <img src="sponsor2.png?raw=true" alt="" class="sponsor__img">
+                <img src="sponsor3.png?raw=true" alt="" class="sponsor__img">
+                <img src="sponsor4.png?raw=true" alt="" class="sponsor__img">
+            </div>
+        </section>
+
+        <!--=============== SPECS ===============-->
+        <section class="specs section grid" id="specs">
+            <h2 class="section__title section__title-gradient">Specs</h2>
+
+            <div class="specs__container container grid">
+                <div class="specs__content grid">
+                    <div class="specs__data">
+                        <i class="ri-bluetooth-line specs__icon"></i>
+                        <h3 class="specs__title">Connection</h3>
+                        <span class="specs__subtitle">Wi-Fi 6 & Bluetooth 5.2</span>
+                    </div>
+
+                    <div class="specs__data">
+                        <i class="ri-battery-charge-line specs__icon"></i>
+                        <h3 class="specs__title">Battery</h3>
+                        <span class="specs__subtitle">Upto 20 hours</span>
+                    </div>
+
+                    <div class="specs__data">
+                        <i class="ri-plug-line specs__icon"></i>
+                        <h3 class="specs__title">Charging</h3>
+                        <span class="specs__subtitle">Fast Charge Technology</span>
+                    </div>
+
+                    <div class="specs__data">
+                        <i class="ri-mic-line specs__icon"></i>
+                        <h3 class="specs__title">Audio</h3>
+                        <span class="specs__subtitle">Bang & Olufsen Audio</span>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="processor.png?raw=true" alt="" class="specs__img">
+                </div>
+            </div>
+        </section>
+
+        <!--=============== CASE ===============-->
+        <section class="case section grid" id="case">
+            <h2 class="section__title section__title-gradient">Protect Your Investment</h2>
+
+            <div class="case__container container grid">
+                <div>
+                    <img src="2nd.png?raw=true" alt="" class="case__img">
+                </div>
+
+                <div class="case__data">
+                    <p class="case__description">Keep your laptop safe and secure with our durable laptop cases, designed for on-the-go professionals. Our cases offer maximum protection against drops, bumps, and scratches, ensuring your laptop remains in perfect condition wherever you take it.
+                    </p>
+                    </p>
+                    <a href="#" class="button button--flex">
+                        <i class="ri-information-line button__icon"></i> More info
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== DISCOUNT ===============-->
+        <section class="discount section">
+            <div class="discount__container container grid">
+                <div class="discount__animate">
+                    <h2 class="discount__title">Upgrade your productivity</h2>
+                    <p class="discount__description">Special offer: Save up to $200 on select models.</p>
+                    <a href="#" class="button button--flex">
+                        <i class="ri-shopping-bag-line button__icon"></i> Shop Now
+                    </a>
+                </div>
+
+                <img src="laps.png?raw=true" alt="" class="discount__img">
+            </div>
+        </section>
+
+        <!--=============== PRODUCTS ===============-->
+        <section class="products section" id="products">
+            <h2 class="section__title section__title-gradient products__line">
+                Choose <br> Your Style
+            </h2>
+
+            <div class="products__container container grid">
+                <article class="products__card">
+                    <div class="products__content">
+                        <img src="black.png?raw=true" alt="" class="products__img">
+
+                        <h3 class="products__title">Black</h3>
+                        <span class="products__price">$1,299</span>
+
+                        <button class="button button--flex products__button">
+                            <i class="ri-shopping-bag-line button__icon"></i>
+                        </button>
+                    </div>
+                </article>
+                <article class="products__card">
+                    <div class="products__content">
+                        <img src="grey.png?raw=true" alt="" class="products__img">
+
+                        <h3 class="products__title">Grey</h3>
+                        <span class="products__price">$1,499</span>
+
+                        <button class="button button--flex products__button">
+                            <i class="ri-shopping-bag-line button__icon"></i>
+                        </button>
+                    </div>
+                </article>
+                <article class="products__card">
+                    <div class="products__content">
+                        <img src="black.png?raw=true" alt="" class="products__img">
+
+                        <h3 class="products__title">Night Black</h3>
+                        <span class="products__price">$1,249</span>
+
+                        <button class="button button--flex products__button">
+                            <i class="ri-shopping-bag-line button__icon"></i>
+                        </button>
+                    </div>
+                </article>
+                <article class="products__card">
+                    <div class="products__content">
+                        <img src="white.png?raw=true" alt="" class="products__img">
+
+                        <h3 class="products__title">white</h3>
+                        <span class="products__price">$1,749</span>
+
+                        <button class="button button--flex products__button">
+                            <i class="ri-shopping-bag-line button__icon"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <article class="products__card">
+                    <div class="products__content">
+                        <img src="twilight.png?raw=true" alt="" class="products__img">
+
+                        <h3 class="products__title">Twilight gray</h3>
+                        <span class="products__price">$1,279</span>
+
+                        <button class="button button--flex products__button">
+                            <i class="ri-shopping-bag-line button__icon"></i>
+                        </button>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div class="footer__logo">
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Categories</h3>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#" class="footer__link">Gaming Laptops</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Business Laptops</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Student Laptops</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">2-in-1 Laptops</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Support</h3>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#" class="footer__link">Product help</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Register</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Updates</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Provides</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <form action="" class="footer__form">
+                    <input type="email" placeholder="Email" class="footer__input">
+                    <button class="button button--flex">
+                        <i class="ri-send-plane-line button__icon"></i> Subscribe
+                    </button>
+                </form>
+
+                <div class="footer__social">
+                    <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                        <i class="ri-facebook-fill"></i>
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+                    <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                        <i class="ri-twitter-line"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <p class="footer__copy">
+            <a href="" target="_blank" class="footer__copy-link">© pavithra. All right reserved</a>
+        </p>
+    </footer>
+
+    <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-s-line scrollup__icon"></i>
+    </a>
+   
+    <script>
+        let lastScrollTop = 0;
+        const header = document.getElementById('header');
+    
+        window.addEventListener('scroll', () => {
+            let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    
+            if (scrollTop > lastScrollTop) {
+                // Scrolling down
+                header.classList.add('header--hidden');
+            } else {
+                // Scrolling up
+                header.classList.remove('header--hidden');
+            }
+            lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+        });
+    </script>
+    
+</body>
+</html>
